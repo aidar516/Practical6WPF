@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "PcmmmFGd8jhNHjN7uQvt2F9/M0KZCYmYKTN7E19/DLYpQuThpisHysb1KL0e8KfFK/AAbbGKi3yhImfzEaXCOQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\valiu\\source\\repos\\C#\\Practical 6 WPF\\Practical 6 WPF\\Practical 6 WPF.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\valiu\\.nuget\\packages\\materialdesigncolors\\2.1.2\\materialdesigncolors.2.1.2.nupkg.sha512",
+    "C:\\Users\\valiu\\.nuget\\packages\\materialdesignthemes\\4.8.0\\materialdesignthemes.4.8.0.nupkg.sha512",
+    "C:\\Users\\valiu\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,32 @@
+C:\Users\valiu\source\repos\C#\Practical 6 WPF\Practical 6 WPF\bin\Debug\net6.0-windows\Practical 6 WPF.exe
+C:\Users\valiu\source\repos\C#\Practical 6 WPF\Practical 6 WPF\bin\Debug\net6.0-windows\Practical 6 WPF.deps.json
+C:\Users\valiu\source\repos\C#\Practical 6 WPF\Practical 6 WPF\bin\Debug\net6.0-windows\Practical 6 WPF.runtimeconfig.json
+C:\Users\valiu\source\repos\C#\Practical 6 WPF\Practical 6 WPF\bin\Debug\net6.0-windows\Practical 6 WPF.dll
+C:\Users\valiu\source\repos\C#\Practical 6 WPF\Practical 6 WPF\bin\Debug\net6.0-windows\Practical 6 WPF.pdb
+C:\Users\valiu\source\repos\C#\Practical 6 WPF\Practical 6 WPF\bin\Debug\net6.0-windows\MaterialDesignColors.dll
+C:\Users\valiu\source\repos\C#\Practical 6 WPF\Practical 6 WPF\bin\Debug\net6.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Users\valiu\source\repos\C#\Practical 6 WPF\Practical 6 WPF\bin\Debug\net6.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\valiu\source\repos\C#\Practical 6 WPF\Practical 6 WPF\obj\Debug\net6.0-windows\Practical 6 WPF.csproj.AssemblyReference.cache
+C:\Users\valiu\source\repos\C#\Practical 6 WPF\Practical 6 WPF\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\valiu\source\repos\C#\Practical 6 WPF\Practical 6 WPF\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\valiu\source\repos\C#\Practical 6 WPF\Practical 6 WPF\obj\Debug\net6.0-windows\Practical 6 WPF_MarkupCompile.cache
+C:\Users\valiu\source\repos\C#\Practical 6 WPF\Practical 6 WPF\obj\Debug\net6.0-windows\Practical 6 WPF_MarkupCompile.lref
+C:\Users\valiu\source\repos\C#\Practical 6 WPF\Practical 6 WPF\obj\Debug\net6.0-windows\App.baml
+C:\Users\valiu\source\repos\C#\Practical 6 WPF\Practical 6 WPF\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\valiu\source\repos\C#\Practical 6 WPF\Practical 6 WPF\obj\Debug\net6.0-windows\Practical 6 WPF.g.resources
+C:\Users\valiu\source\repos\C#\Practical 6 WPF\Practical 6 WPF\obj\Debug\net6.0-windows\Practical 6 WPF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\valiu\source\repos\C#\Practical 6 WPF\Practical 6 WPF\obj\Debug\net6.0-windows\Practical 6 WPF.AssemblyInfoInputs.cache
+C:\Users\valiu\source\repos\C#\Practical 6 WPF\Practical 6 WPF\obj\Debug\net6.0-windows\Practical 6 WPF.AssemblyInfo.cs
+C:\Users\valiu\source\repos\C#\Practical 6 WPF\Practical 6 WPF\obj\Debug\net6.0-windows\Practical 6 WPF.csproj.CoreCompileInputs.cache
+C:\Users\valiu\source\repos\C#\Practical 6 WPF\Practical 6 WPF\obj\Debug\net6.0-windows\Practical 6 WPF.csproj.CopyComplete
+C:\Users\valiu\source\repos\C#\Practical 6 WPF\Practical 6 WPF\obj\Debug\net6.0-windows\Practical 6 WPF.dll
+C:\Users\valiu\source\repos\C#\Practical 6 WPF\Practical 6 WPF\obj\Debug\net6.0-windows\refint\Practical 6 WPF.dll
+C:\Users\valiu\source\repos\C#\Practical 6 WPF\Practical 6 WPF\obj\Debug\net6.0-windows\Practical 6 WPF.pdb
+C:\Users\valiu\source\repos\C#\Practical 6 WPF\Practical 6 WPF\obj\Debug\net6.0-windows\Practical 6 WPF.genruntimeconfig.cache
+C:\Users\valiu\source\repos\C#\Practical 6 WPF\Practical 6 WPF\obj\Debug\net6.0-windows\ref\Practical 6 WPF.dll
+C:\Users\valiu\source\repos\C#\Practical 6 WPF\Practical 6 WPF\obj\Debug\net6.0-windows\Server.g.cs
+C:\Users\valiu\source\repos\C#\Practical 6 WPF\Practical 6 WPF\obj\Debug\net6.0-windows\Server.baml
+C:\Users\valiu\source\repos\C#\Practical 6 WPF\Practical 6 WPF\obj\Debug\net6.0-windows\Client.g.cs
+C:\Users\valiu\source\repos\C#\Practical 6 WPF\Practical 6 WPF\obj\Debug\net6.0-windows\Client.baml
+C:\Users\valiu\source\repos\C#\Practical 6 WPF\Practical 6 WPF\obj\Debug\net6.0-windows\LogChats.g.cs
+C:\Users\valiu\source\repos\C#\Practical 6 WPF\Practical 6 WPF\obj\Debug\net6.0-windows\LogChats.baml

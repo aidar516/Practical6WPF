@@ -1,0 +1,24 @@
+﻿<Window x:Class="Practical_6_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Practical_6_WPF"
+        mc:Ignorable="d"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        Title="MainWindow" Height="304" Width="345">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock x:Name="TextBl" VerticalAlignment="Center" Text="Сетевой чат" HorizontalAlignment="Center" FontSize="20"/>
+        <TextBox x:Name="NameUser" Width="335" Grid.Row="1" VerticalAlignment="Center" FontSize="20" materialDesign:HintAssist.Hint="Имя пользователя"/>
+        <TextBox x:Name="IP"  Width="335" PreviewTextInput="IP_PreviewTextInput" Grid.Row="4" VerticalAlignment="Center" FontSize="20" materialDesign:HintAssist.Hint="IP-адрес чата"/>
+        <Button x:Name="Connect"  Width="335" Grid.Row="2" VerticalAlignment="Center" Content="Подключитсья" FontSize="20" Click="Connect_Click" Cursor="Hand"/>
+        <Button x:Name="Create"  Width="335" Grid.Row="3" VerticalAlignment="Center" Content="Создать" FontSize="20" Click="Create_Click"/>
+    </Grid>
+</Window>
