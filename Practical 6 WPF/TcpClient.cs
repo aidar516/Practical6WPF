@@ -10,7 +10,6 @@ namespace Practical_6_WPF
 {
     internal class TcpClient
     {
-        private Client client;
         private Socket socket;
         private ListBox listbox;
 
@@ -19,7 +18,7 @@ namespace Practical_6_WPF
             listbox = listBox;
             socket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
             socket.ConnectAsync(ip, 8888);
-            SendMessage("/username " + login);
+            SendMessage("Пользователь " + login + " подключился");
             ReciveMessage();
 
         }
