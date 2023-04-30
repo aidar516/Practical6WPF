@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace Practical_6_WPF
 {
@@ -23,9 +24,17 @@ namespace Practical_6_WPF
 
         private void Send_Click(object sender, RoutedEventArgs e)
         {
-                /*Messege.Items.Add($"[{DateTime.Now}] {TextTBox.Text}");*/
-            client.SendMessage(TextTBox.Text);
-            
+            string exitCommand = "/disconnect";
+            if (TextTBox.Text == exitCommand)
+            {
+                MainWindow mainWindow = new MainWindow();
+                mainWindow.Show();
+                Close();
+            }
+            else
+            {
+                client.SendMessage(TextTBox.Text);
+            }
         }
 
         private void Exit_Click(object sender, RoutedEventArgs e)
@@ -35,10 +44,15 @@ namespace Practical_6_WPF
             Close();
         }
 
-        private void Watch_Click(object sender, RoutedEventArgs e)
+            private void Watch_Click(object sender, RoutedEventArgs e)
         {
             LogChats log = new LogChats();
             log.Show();
+        }
+
+        private void TextTBox_PreviewMouseLeftButtonDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
+        {
+            TextTBox.Text = "";
         }
     }
 }

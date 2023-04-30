@@ -19,7 +19,7 @@ namespace Practical_6_WPF
             socket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
             socket.ConnectAsync(ip, 8888);
             SendMessage("/Пользователь " + login + " подключился");
-            ReciveMessage();
+            ReciveMessage(login);
 
         }
 
@@ -29,7 +29,7 @@ namespace Practical_6_WPF
             await socket.SendAsync(bytes, SocketFlags.None);
         }
 
-        private async Task ReciveMessage()
+        private async Task ReciveMessage(string login)
         {
             while (true)
             {

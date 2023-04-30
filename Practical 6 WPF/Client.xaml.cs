@@ -38,5 +38,10 @@ namespace Practical_6_WPF
                 client.SendMessage(Text.Text);
             }
         }
+
+        private void Text_PreviewMouseLeftButtonDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
+        {
+            Text.Text = "";
+        }
     }
 }

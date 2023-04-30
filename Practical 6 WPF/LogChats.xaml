@@ -7,6 +7,6 @@
         mc:Ignorable="d"
         Title="LogChats" Height="350" Width="400">
     <Grid>
-        <ListBox x:Name="ListBox"/>
+        <ListBox x:Name="List"/>
     </Grid>
 </Window>

@@ -14,9 +14,9 @@ namespace Practical_6_WPF
         private Socket socket;
         private List<Socket> clients = new List<Socket>();
         private Server myWin;
-        public TcpServer(Server server, ListBox listbox) 
+        public TcpServer(Server serv, ListBox listbox) 
         {
-            myWin = server;
+            myWin = serv;
             IPEndPoint ipPoint = new IPEndPoint(IPAddress.Any, 8888);
             socket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
             socket.Bind(ipPoint);
@@ -42,8 +42,7 @@ namespace Practical_6_WPF
                 await client.ReceiveAsync(bytes, SocketFlags.None);
                 string message = Encoding.UTF8.GetString(bytes);
 
-                /*Messege.Items.Add($"{DateTime.Now} {message}");
-*/              if (message.StartsWith("/Пользователь "))
+                if (message.StartsWith("/Пользователь "))
                 {
                     string[] s = message.Split(' ');
                     myWin.Users.Items.Add(s[1]);
