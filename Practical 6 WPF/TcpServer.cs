@@ -14,7 +14,6 @@ namespace Practical_6_WPF
         private Socket socket;
         private List<Socket> clients = new List<Socket>();
         private Server myWin;
-
         public TcpServer(Server server, ListBox listbox) 
         {
             myWin = server;
@@ -44,7 +43,7 @@ namespace Practical_6_WPF
                 string message = Encoding.UTF8.GetString(bytes);
 
                 /*Messege.Items.Add($"{DateTime.Now} {message}");
-*/              if (message.StartsWith("/username "))
+*/              if (message.StartsWith("/Пользователь "))
                 {
                     string[] s = message.Split(' ');
                     myWin.Users.Items.Add(s[1]);
